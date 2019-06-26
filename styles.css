@@ -1,0 +1,70 @@
+body {
+    font-family: "Georgia";
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgb(250, 235, 250);
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cake-pic {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.heading {
+    border: inset 8px rgb(250, 5, 221);
+    color: white;
+    background: linear-gradient(to bottom, #f54293, #ffccff 100%);
+}
+
+.details {
+    font-size: 18px;
+}
+
+.pre-colons {
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 3em;
+}
+
+#blurb {
+  border-bottom: solid 1.5px rgb(0, 0, 0);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#yes {
+    background-color: green;
+}
+
+#no {
+    background-color: red;
+}
+
+#comment {
+    margin: 1.5em;
+}
+
+#response {
+    margin: 1.3em;
+}
+
+#submit {
+  background-color: rgb(66, 92, 237);
+}
